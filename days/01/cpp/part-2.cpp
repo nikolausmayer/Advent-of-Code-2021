@@ -15,17 +15,21 @@ int main(int argc, char* argv[])
     return EXIT_FAILURE;
   }
 
-  int last{-1};
+  int m3{-1}, m2{-1}, m1{-1};
   int result{0};
   while (not infile.eof()) {
     int next;
     infile >> next;
     if (infile.eof()) { break; }
-    if (last != -1 and next > last)
+    const auto presum{m3+m2+m1};
+    m3 = m2;
+    m2 = m1;
+    m1 = next;
+    const auto nowsum{m3+m2+m1};
+    if (m3 != -1 and nowsum > presum)
       ++result;
-    last = next;
   }
-  std::cout << result << std::endl;
+  std::cout << result-1 << std::endl;
 
   return EXIT_SUCCESS;
 }
