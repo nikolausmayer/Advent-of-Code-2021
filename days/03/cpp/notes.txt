@@ -1,0 +1,1 @@
+This felt like an unusually early "hard" day. Not that the task was difficult, but the whole parsing-bits-from-strings was a bit of effort and of course I messed up several things by not reading the task correctly (as is tradition).
