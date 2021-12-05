@@ -1,0 +1,1 @@
+Another classic early-to-mid AoC day where parsing the input was more work than solving the task. I should really get more familiar with string scanning in C++!
