@@ -1,2 +1,3 @@
 This day is a classical exponential-growth problem where part 1 can possibly be solved in a naive way (by actually enumerating and keeping track of all fish) but then part 2 simply changes a factor or the number of steps and suddenly this approach becomes entirely unfeasible.
+
 I was lucky to recognize this and then lucky again to have implemented part 1 in a way that required only the number-of-days and datatype of the result to be changed for part 2.
