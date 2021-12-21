@@ -1,0 +1,1 @@
+This is by far the most demanding task so far this year, but it was a lot of fun to figure out. I think it helped quite a bit that I had been doing various code-puzzle tasks in the months before AoC -- e.g. LeetCode has many problems that point in the right direction for this.
